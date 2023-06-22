@@ -6,4 +6,5 @@ To cross-compile this Rust project for Windows from a Linux machine, follow thes
 2. Install the mingw-w64 toolchain:
     - Apt: `sudo apt-get install mingw-w64`
     - Pacman: `sudo pacman -S mingw-w64-gcc`
-3. Build the project using the --target flag: `cargo build --target x86_64-pc-windows-gnu`
+3. Build the project using the --target flag: `cargo build --target
+   x86_64-pc-windows-gnu --release`
